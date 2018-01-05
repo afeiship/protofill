@@ -14,10 +14,9 @@
       },
       version: function(){
         var splitUserAgent = USER_AGENT.split(ANDROID_STR);
-        if (splitUserAgent.length > 1) {
-          return splitUserAgent[1].split(SEMICOLON)[0];
-        }
-        return null;
+        return splitUserAgent.length > 1
+          ? splitUserAgent[1].split(SEMICOLON)[0]
+          : null;
       }
     }
   });
