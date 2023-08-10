@@ -58,5 +58,8 @@
     "js",
     "prototype",
     "safely"
-  ]
+  ],
+  "dependencies": {
+    "@jswork/simple-date-format": "^1.0.4"
+  }
 }

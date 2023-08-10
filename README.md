@@ -15,6 +15,19 @@ npm install @jswork/protofill
 ```js
 // just oneline
 import '@jswork/protofill'
+
+// ------ Array ---- 
+// const arr = [1,2,3]
+// set first: arr.first = 'a';
+// get first: arr.first;
+
+// set last: arr.last = 'a';
+// get last: arr.last;
+
+
+// ------ Date ----
+// const date = new Date();
+// format: date.format('YYYY-MM-DD HH:mm:ss');
 ```
 
 ## license
