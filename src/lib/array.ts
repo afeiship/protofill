@@ -1,3 +1,5 @@
+import '../types/array-extensions.d.ts';
+
 // first
 if (!Array.prototype.hasOwnProperty('first')) {
   Object.defineProperty(Array.prototype, 'first', {

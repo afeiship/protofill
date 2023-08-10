@@ -1,5 +1,5 @@
 import '../../src';
-import '../../global.d.ts'
+import '../../src/types/array-extensions.d.ts'
 
 describe('api.array', () => {
   test('api.first set/get by "first" property', () => {
