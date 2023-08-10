@@ -13,9 +13,8 @@ npm install @jswork/protofill
 
 ## usage
 ```js
-import protofill from '@jswork/protofill';
-
-// usage goes here.
+// just oneline
+import '@jswork/protofill'
 ```
 
 ## license
