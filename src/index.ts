@@ -1,7 +1,9 @@
+import './lib';
+
 declare var wx: any;
 
-const Protofill = (): void => {
-  console.log('hello');
+const Protofill = () => {
+  console.log('nothing.');
 };
 
 // for commonjs es5 require
