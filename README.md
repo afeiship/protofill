@@ -9,6 +9,9 @@
 ## installation
 ```shell
 npm install @jswork/protofill
+
+# add types for `src/global.d.ts`
+import '@jswork/protofill/dist/types';
 ```
 
 ## usage
