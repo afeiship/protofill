@@ -1,4 +1,4 @@
-import '../types/date-extensions.d.ts';
+// import '../types/date-extensions.d.ts';
 import sdf from '@jswork/simple-date-format';
 
 if (!Date.prototype.hasOwnProperty('format')) {

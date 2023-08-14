@@ -1,4 +1,4 @@
-import '../types/array-extensions.d.ts';
+// import '../types/array-extensions.d.ts';
 
 // first
 if (!Array.prototype.hasOwnProperty('first')) {
