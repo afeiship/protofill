@@ -21,21 +21,22 @@ import '@jswork/protofill'
 
 // ------ Array ---- 
 // const arr = [1,2,3]
-set first: arr.first = 'a';
-get first: arr.first;
+// set/get first: 
+arr.first = 'a';
+arr.first;
 
-// set last: arr.last = 'a';
-// get last: arr.last;
+// set/get last: 
+arr.last = 'a';
+arr.last;
 
 // filter2tuple
 const numbers = [1, 2, 3, 4, 5];
 const result = numbers.filter2tuple((item) => item > 2);
 // result: [[3, 4, 5], [1, 2, 3, 4, 5]]
 
-
 // ------ Date ----
-// const date = new Date();
-// format: date.format('YYYY-MM-DD HH:mm:ss');
+const date = new Date();
+format: date.format('YYYY-MM-DD HH:mm:ss');
 ```
 
 ## license
