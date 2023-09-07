@@ -21,11 +21,16 @@ import '@jswork/protofill'
 
 // ------ Array ---- 
 // const arr = [1,2,3]
-// set first: arr.first = 'a';
-// get first: arr.first;
+set first: arr.first = 'a';
+get first: arr.first;
 
 // set last: arr.last = 'a';
 // get last: arr.last;
+
+// filter2tuple
+const numbers = [1, 2, 3, 4, 5];
+const result = numbers.filter2tuple((item) => item > 2);
+// result: [[3, 4, 5], [1, 2, 3, 4, 5]]
 
 
 // ------ Date ----
