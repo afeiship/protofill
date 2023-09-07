@@ -60,6 +60,7 @@
     "safely"
   ],
   "dependencies": {
+    "@jswork/filter2tuple": "^1.0.4",
     "@jswork/simple-date-format": "^1.0.4"
   }
 }
