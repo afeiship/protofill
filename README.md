@@ -20,7 +20,8 @@ import '@jswork/protofill/dist/types';
 import '@jswork/protofill'
 
 // ------ Array ---- 
-// const arr = [1,2,3]
+const arr = [1,2,3]
+
 // set/get first: 
 arr.first = 'a';
 arr.first;
